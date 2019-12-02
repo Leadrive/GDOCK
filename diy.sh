@@ -28,7 +28,7 @@ echo '下载ServerChan'
 git clone https://github.com/tty228/luci-app-serverchan ../diy/luci-app-serverchan
 
 echo '下载printing'
-git clone https://github.com/unixz/openwrt-printing-packages ../diy/printing
+git clone https://github.com/Leadrive/openwrt-printing-packages ../diy/printing
 
 echo '集成diy目录'
 ln -s ../../diy ./package/openwrt-packages
